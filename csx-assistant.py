@@ -4,7 +4,7 @@ import os
 import openai
 from PIL import Image
 
-logo = Image.open("csx_logo.jpg")
+logo = Image.open("csx_logo.png")
 
 st.set_page_config(page_title="CSX Assistant", page_icon=logo, initial_sidebar_state="auto")
 st.sidebar.image(logo)
